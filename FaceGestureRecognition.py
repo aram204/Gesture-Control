@@ -141,7 +141,7 @@ with tf.Graph().as_default():
             cv2.imshow('Face Recognition', frame)
             key= cv2.waitKey(1)
             print(t2-t1)
-            if key == 113 or result_names == 'Narek' :
+            if key == 113 or result_names == 'Aram' :
 
                 flag = True
                 break
